@@ -1,6 +1,7 @@
 package com.DHX.powercraft;
 
 import com.DHX.powercraft.handlers.ConfigurationHandler;
+import com.DHX.powercraft.init.ModBlocks;
 import com.DHX.powercraft.init.ModItems;
 import com.DHX.powercraft.reference.Reference;
 import com.DHX.powercraft.utility.LogHelper;
@@ -29,6 +30,7 @@ public class powercraft
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 
         ModItems.init();
+        ModBlocks.init();
 
         LogHelper.info("Pre-Initialization Complete");
       }
