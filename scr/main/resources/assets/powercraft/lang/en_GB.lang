@@ -1,0 +1,5 @@
+item.powercraft:testitem.name=Rock
+item.powercraft:zghoe.name="Zero-G" Hoe
+tile.powercraft:testblock.name=Blackboard
+tile.powercraft:blockzgwater.name=Water
+tile.powercraft:blockzgfarmland.name=Farmland
