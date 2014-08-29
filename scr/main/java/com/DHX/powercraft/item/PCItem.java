@@ -36,7 +36,6 @@ public class PCItem extends Item
     public void registerIcons(IIconRegister iconRegister)
       {
         itemIcon = iconRegister.registerIcon(this.getUnwrappedUnlocalizedName(this.getUnlocalizedName()));
-        LogHelper.info(this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1));
       }
 
     protected String getUnwrappedUnlocalizedName(String unlocalizedName)
