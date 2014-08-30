@@ -1,8 +1,10 @@
 package com.DHX.powercraft;
 
+import com.DHX.powercraft.client.handlers.KeyInputEventHandler;
 import com.DHX.powercraft.handlers.ConfigurationHandler;
 import com.DHX.powercraft.init.ModBlocks;
 import com.DHX.powercraft.init.ModItems;
+import com.DHX.powercraft.init.Recipes;
 import com.DHX.powercraft.reference.Reference;
 import com.DHX.powercraft.utility.LogHelper;
 import cpw.mods.fml.common.FMLCommonHandler;
@@ -28,6 +30,7 @@ public class powercraft
       {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+        proxy.registerKeyBindings();
 
         ModItems.init();
         ModBlocks.init();
@@ -38,6 +41,8 @@ public class powercraft
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
       {
+        FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
+        Recipes.init();
         LogHelper.info("Initialization Complete");
       }
 

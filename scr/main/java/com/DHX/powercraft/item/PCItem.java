@@ -2,7 +2,6 @@ package com.DHX.powercraft.item;
 
 import com.DHX.powercraft.creativetab.PCCreativeTab;
 import com.DHX.powercraft.reference.Reference;
-import com.DHX.powercraft.utility.LogHelper;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;

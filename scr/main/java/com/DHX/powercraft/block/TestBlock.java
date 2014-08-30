@@ -12,4 +12,4 @@ public class TestBlock extends PCBlock
         this.setBlockTextureName("testblock");
         this.setCreativeTab(PCCreativeTab.PC_Tab);
       }
-   }
+  }

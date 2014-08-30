@@ -85,6 +85,8 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
+key_keys.powercraft.charge:46
+key_keys.powercraft.release:19
 soundCategory_master:0.13907285
 soundCategory_music:0.056338027
 soundCategory_record:0.47887325

@@ -1,6 +1,13 @@
+#Creative Tabs
 itemGroup.powercraft=Power Craft
+#Items
 item.powercraft:testitem.name=Rock
 item.powercraft:zghoe.name="Zero-G" Hoe
+#Blocks
 tile.powercraft:testblock.name=Blackboard
 tile.powercraft:blockzgwater.name=Water
 tile.powercraft:blockzgfarmland.name=Farmland
+#Keys
+keys.powercraft.category=Power Craft
+keys.powercraft.charge=Charge
+keys.powercraft.release=Release
