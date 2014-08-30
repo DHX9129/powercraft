@@ -1,5 +1,6 @@
 package com.DHX.powercraft.item;
 
+import com.DHX.powercraft.creativetab.PCCreativeTab;
 import com.DHX.powercraft.reference.Reference;
 import com.DHX.powercraft.utility.LogHelper;
 import cpw.mods.fml.relauncher.Side;
@@ -13,8 +14,7 @@ public class PCItem extends Item
     public PCItem()
       {
         super();
-
-        //this.setCreativeTab(CreativeTabPC.PC_TAB);
+        this.setCreativeTab(PCCreativeTab.PC_Tab);
       }
 
     @Override

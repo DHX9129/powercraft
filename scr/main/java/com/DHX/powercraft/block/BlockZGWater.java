@@ -1,5 +1,6 @@
 package com.DHX.powercraft.block;
 
+import com.DHX.powercraft.creativetab.PCCreativeTab;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.material.Material;
@@ -20,6 +21,7 @@ public class BlockZGWater extends BlockFluidClassic
     public BlockZGWater(Fluid fluid, Material material) {
       super(fluid, material);
       this.setBlockName("blockzgwater");
+      this.setCreativeTab(PCCreativeTab.PC_Tab);
     }
 
     @Override

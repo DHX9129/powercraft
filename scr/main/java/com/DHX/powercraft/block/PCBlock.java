@@ -1,5 +1,6 @@
 package com.DHX.powercraft.block;
 
+import com.DHX.powercraft.creativetab.PCCreativeTab;
 import com.DHX.powercraft.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,6 +13,7 @@ public class PCBlock extends Block
     public PCBlock(Material material)
       {
         super(material);
+        this.setCreativeTab(PCCreativeTab.PC_Tab);
       }
 
     public PCBlock()

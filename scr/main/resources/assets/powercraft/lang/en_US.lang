@@ -1,3 +1,4 @@
+itemGroup.powercraft=Power Craft
 item.powercraft:testitem.name=Rock
 item.powercraft:zghoe.name="Zero-G" Hoe
 tile.powercraft:testblock.name=Blackboard

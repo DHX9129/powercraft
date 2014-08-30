@@ -1,5 +1,6 @@
 package com.DHX.powercraft.block;
 
+import com.DHX.powercraft.creativetab.PCCreativeTab;
 import com.DHX.powercraft.utility.LogHelper;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -30,6 +31,7 @@ public class BlockZGFarmland extends Block
         this.setTickRandomly(true);
         this.setBlockBounds(0.0F, 0.0625F, 0.0F, 1.0F, 1.0F, 1.0F);
         this.setLightOpacity(255);
+        this.setCreativeTab(PCCreativeTab.PC_Tab);
       }
 
     public AxisAlignedBB getCollisionBoundingBoxFromPool(World world, int x, int y, int z)
